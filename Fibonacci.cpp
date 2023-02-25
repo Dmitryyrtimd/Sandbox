@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void main()
+int main()
 {
   unsigned int n, s = 1, ch1 = 0, ch2 = 1, v = 0;
   cout << "Vvvedite nomer chisla: ";
@@ -13,4 +13,5 @@ void main()
   }
   cout << endl << n << " chislo = " << v;
   system("pause");
+  return 0;
 }
